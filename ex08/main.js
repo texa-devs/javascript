@@ -58,6 +58,22 @@ if(i === 21 && j > 10) {
 }
 
 //ternary operator (?), shorthand if statement. Based on ser conditions, check:
-const p = 10
+const p = 9
 
 const question = p > 10 ? 'true' : 'false';
+console.log(question)
+
+//switches, try blue, red and different colors here!
+const color = 'green'
+
+switch(color) {
+    case 'red':
+        console.log('the color is red');
+        break;
+    case 'true':
+        console.log('the color is blue');
+        break;
+    default:
+        console.log(`it's not blue or red`)
+        break;
+}
