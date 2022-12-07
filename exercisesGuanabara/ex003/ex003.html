@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First code</title>
+    <style>
+        body{
+            background-color: rgb(105,105,173);
+            color: white;
+            font: normal 20px Arial;
+        }
+
+        div.main {
+            display: flex;
+            align-items: center;
+            background-color: rgba(74, 74, 134, 0.596);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Hello world!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti non deleniti id. Amet temporibus alias quo magnam voluptatem animi impedit corrupti fugit porro dolorum? Quam quos consequatur ut recusandae voluptatibus.</p>
+    </div>
+    <script>
+        var n1 = Number.parseFloat(prompt('type a real number'));
+        
+        var n3 = Number(window.prompt('type any number'));
+        var s = n1 + n3;
+        
+        alert('A soma dos valores é ' + s); //sum
+
+        s = `${n1} + ${n3}`;
+        String(s);
+
+        alert('The numbers inputed ' + s);
+
+        //(number + number) for addition
+        //(string + string) concatenation
+
+        /*string -> number
+        Number.parseInt(n)
+        Number.parseFloat(n)*/
+
+    </script>
+</body>
+</html>
